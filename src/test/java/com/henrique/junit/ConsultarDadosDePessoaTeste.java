@@ -13,7 +13,7 @@ public class ConsultarDadosDePessoaTeste {
 
     @BeforeEach
     void insereDadosParaTeste(){
-        BancoDeDados.insereDados(new Pessoa("joao", LocalDate.of(2000, 1, 1)));
+        BancoDeDados.insereDados(new Pessoa("joao", "123",LocalDate.of(2000, 1, 1)));
     }
 
     @AfterEach

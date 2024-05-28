@@ -21,7 +21,7 @@ public class AssertionsTeste {
 
         Assertions.assertNull(pessoa);
 
-        pessoa = new Pessoa("luciano", LocalDate.now());
+        pessoa = new Pessoa("luciano", "123", LocalDate.now());
 
         Assertions.assertNotNull(pessoa);
     }
